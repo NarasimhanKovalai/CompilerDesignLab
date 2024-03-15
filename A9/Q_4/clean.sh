@@ -1,0 +1,1 @@
+find . -type f -name 'a-sample*' -exec rm {} \;

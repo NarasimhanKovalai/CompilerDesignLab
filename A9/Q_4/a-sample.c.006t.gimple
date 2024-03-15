@@ -1,0 +1,39 @@
+int main ()
+gimple_bind <
+  int D.2876;
+
+  gimple_bind <
+    int a;
+    int i;
+    int n;
+
+    gimple_assign <integer_cst, a, 0, NULL, NULL>
+    gimple_assign <integer_cst, i, 0, NULL, NULL>
+    gimple_assign <integer_cst, n, 13, NULL, NULL>
+    gimple_assign <integer_cst, i, 0, NULL, NULL>
+    gimple_goto <<D.2871>>
+    gimple_label <<D.2870>>
+    gimple_assign <mult_expr, _1, a, 2, NULL>
+    gimple_assign <plus_expr, a, i, _1, NULL>
+    gimple_assign <plus_expr, i, i, 1, NULL>
+    gimple_label <<D.2871>>
+    gimple_cond <lt_expr, i, n, <D.2870>, <D.2868>>
+    gimple_label <<D.2868>>
+    gimple_call <printf, NULL, "%d\n", i>
+    gimple_goto <<D.2873>>
+    gimple_label <<D.2874>>
+    gimple_call <printf, NULL, "hi\n">
+    gimple_label <<D.2873>>
+    gimple_assign <var_decl, i.0_2, i, NULL, NULL>
+    gimple_assign <plus_expr, i, i.0_2, -1, NULL>
+    gimple_cond <ne_expr, i.0_2, 0, <D.2874>, <D.2872>>
+    gimple_label <<D.2872>>
+    gimple_call <printf, NULL, "%d\n", a>
+    gimple_assign <integer_cst, D.2876, 0, NULL, NULL>
+    gimple_return <D.2876>
+  >
+  gimple_assign <integer_cst, D.2876, 0, NULL, NULL>
+  gimple_return <D.2876>
+>
+
+

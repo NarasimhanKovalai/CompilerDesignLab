@@ -1,0 +1,17 @@
+global 
+
+
+while x > y:
+    var1 := x + 1;
+    while a > b:
+        q := y + 1;
+        while var2 >= var3:
+            var3:= v + g;
+            if 6 < 5:
+                b := a * var3
+            end
+        end
+    end
+end	
+	
+end

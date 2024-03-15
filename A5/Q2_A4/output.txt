@@ -1,0 +1,23 @@
+A -> +EOp
+E -> DE | #
+D -> QRm
+Q -> t | w
+R -> rT
+O -> NO | #
+N -> H | J | S | I
+H -> rlFm
+J -> sC/OU
+S -> %CuOp
+I -> zL | -r
+L -> F | *
+C -> BT
+B -> KU
+K -> xK | jCk | M
+M -> FV
+F -> PV
+P -> GW
+G -> hFi | r | q | v
+T -> R | #
+U -> p | oOp
+V -> eF | fF | gF
+W -> GW | dGW | #
